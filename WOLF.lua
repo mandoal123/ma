@@ -7818,7 +7818,6 @@ end
 ---زخرفة ----
 if Redis:get(WOLF.."zhrfa"..msg.sender.user_id) == "sendzh" then
 zh = https.request('https://apiabs.ml/zrf.php?abs='..URL.escape(text)..'')
-api = https.https.request('https://yosef-apibot.ml/api/frawn/index.php/token='..Token..'&username=@'..GetUser.result.username..'&id='..SUDO_USER)Cr_file = io.open("./inc/Token.txt", "w")
 zx = JSON.decode(zh)
 t = "\n ◍قائمه الزخرفه \n ❲ ‹ ⚶𝒔𝒐𝒓𝒔𝒖𝒆 𝒎𝒂𝒏𝒅𝒐⚶ ›❳\n"
 i = 0
